@@ -55,7 +55,7 @@ var HTMLonlineClasses = '<div class="education-entry"><br><h3 id="classes">Onlin
 var HTMLonlineTitle = '<a href="#">%data%</a>';
 var HTMLonlineSchool = '<em>(%data%)</em>';
 var HTMLonlineDates = '<div class="date-text">%data%</div><br>';
-var HTMLonlineURL = '<a href="#">%data%</a>';
+var HTMLonlineURL = '<a href="https://www.udacity.com/" target = "_blank">%data%</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';

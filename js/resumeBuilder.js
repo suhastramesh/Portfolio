@@ -68,13 +68,13 @@ var education = {
 			"title": "Front-end Web Development",
 			"name": "Udacity",
 			"dates": 2016,
-			"url": "http://www.udacity.com" 
+			"url": "https://www.udacity.com" 
 		},
 		{
 			"title": "JavaScript Basics",
 			"name": "Udacity",
 			"dates": 2016,
-			"url": "http://www.udacity.com"
+			"url": "https://www.udacity.com"
 		}
 	]
 }
@@ -86,7 +86,11 @@ var work = {
 			"title": "Graduate Teaching Assistant",
 			"dates": "May 2014 - May 2016",
 			"location": "Huntsville, AL",
-			"description": "Fill it Later"
+			"description": "Hold weekly office hours. " +
+			"Work with students, learn about problems they are having with the course work and "+
+			"answer their questions. " +
+			"Grade exams, programming assignments and projects. " +
+			"Obtain materials required for classes and proctor the exams. "
 		}
 	]
 }
@@ -107,7 +111,7 @@ var projects = {
 		{
 			"title": "Implementation of Service Discovery Protocol using JINI",
 			"dates": "2015",
-			"description": "An individual  project in which I built a basic application  in which" +
+			"description": "An individual  project in which I built a basic application in which " +
 			"information was retrieved using a XML file using JINI as a service. The project was implemented using JAVA.",
 			"images": [
 				""
@@ -167,7 +171,8 @@ var projects = {
 			"title": "Portfolio",
 			"dates": "2016",
 			"description": "Built my portfolio from scratch using the concepts of HTML5 and CSS3. I used the grid system concept of " +
-			"Bootstrap framework to design the layout of my portfolio. The  portfolio is made responsive keeping in mind the different sizes of devices. ",
+			"Bootstrap framework to design the layout of my portfolio. The  portfolio is made responsive keeping in mind the different sizes of devices. " +
+			"Link - https://github.com/suhastramesh",
 			"images": [
 				""
 			]
@@ -176,7 +181,7 @@ var projects = {
 			"title": "Apple product page",
 			"dates": "2016",
 			"description": "Built a responsive web page for Apple products by using the concepts of HTML and CSS. I made use of the bootstrap " +
-			"framework to place the items on the page.",
+			"framework to place the items on the page. ",
 			"images": [
 				""
 			]
@@ -186,7 +191,20 @@ var projects = {
 			"dates": "2016",
 			"description": " A game which allows the user to click on the shapes that appear randomly on the screen in the least "+
 			"reaction time. I used the concepts of HTML, CSS and JavaScript The JavaScript loops, functions are made use of in order to generate " +
-			"random colors for the shapes and to appear at random places.",
+			"random colors for the shapes and to appear at random places. " +
+			"Link - https://github.com/suhastramesh",
+			"images": [
+				""
+			]
+		},
+		{
+			"title": "Resume",
+			"dates": "2016",
+			"description": "Built my resume using the concept of HTML, CSS, JavaScript and JQuery. I used the " +
+			"template formatting method by using jQuery commands to replace the placeholders and then appending " +
+			"it to the page. I included the map initialization to put a map in my resume which shows the locations " +
+			"of my college and the places I have worked. "+
+			"Link - https://github.com/suhastramesh",
 			"images": [
 				""
 			]
