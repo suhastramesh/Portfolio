@@ -18,41 +18,43 @@ Online resume built using HTML, CSS, JavaScript and JQuery.
     - welcomeMessage: string 
     - skills: array of strings
     - biopic: string url
-    - display: function taking no parameters    
+    - display: function with no parameters    
    
 3. 'Education' contains 
-    - Schools: Array of onjects with
+    - schools: Array of onjects with
          - name : string
          - location : string
          - degree: string
          - majors: array of strings
-         - dates: string (works with a hyphen between them)
+         - dates: string
          - url: string
     - onlineCourses: array of objects with
          - title: string
          - school: string
-         - dates: string (works with a hyphen between them
+         - dates: string
          - url: string
-    - display: function taking no parameters
+    - display: function with no parameters
     
  4. 'Work' contains  
     - jobs: array of objects with
          - employer: string 
          - title: string 
          - location: string 
-         - dates: string (Can be 'in progress')
+         - dates: string
          - description: string 
-    - display: function taking no parameters
+    - display: function with no parameters
     
  5. 'Projects' contains  
     - projects: array of objects with
          - title: string 
-         - dates: string (works with a hyphen between them)
+         - dates: string
          - description: string
          - images: array with string urls
-    - display: function taking no parameters
+    - display: function with no parameters
 
+- Used jQuery’s `selector.append()` and `selector.prepend()` functions to modify index.html. 
 
+- Used the JavaScript method `string.replace(old, new)` to swap out all the placeholder text for data from your resume JSON                  objects.
   
 
 
