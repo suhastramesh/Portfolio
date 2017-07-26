@@ -1,18 +1,7 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
-
- //$("#main").append("Suhas Tirumali Ramesh");
-
-// var awesomeThoughts = "I am Suhas and I am awesome";
-
- //var age = 24;
-
- //var funThoughts = awesomeThoughts.replace("awesome", "fun");
-//$("#main").append(funThoughts);
 
 
- //console.log(funThoughts);
+
+
 var formattedName = HTMLheaderName.replace("%data%", "Suhas Tirumali Ramesh");
 var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
 $("#header").prepend(formattedRole);
@@ -21,7 +10,7 @@ $("#header").prepend(formattedName);
 
 
 
-//$("#main").append(skills[1].length);
+
 var bio = {
 	"name": "Suhas",
 	"role": "Web Developer",
@@ -42,7 +31,7 @@ var bio = {
 	"bioPic": "images/profile.jpg"
 }; 
 
-//$("#main").append(bio);
+
 
 var education = {
 	"schools": [
@@ -215,7 +204,7 @@ var projects = {
 }
 
 
-	//$("#header").append(HTMLcontactGeneric);
+
 
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 	$("#topContacts").append(formattedMobile);
@@ -342,31 +331,6 @@ function displayEducation() {
 }
 
 displayEducation();
-
-
-
-// function displayCourses() {
-
-// 	for (course in education.onlineCourses) {
-// 		$("#education").append(HTMLonlineClasses);
-// 		var formattedTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
-// 		$(".education-entry:last").append(formattedTitle);
-
-// 		var formattedSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].name);
-// 		$(".education-entry:last").append(formattedSchool);
-
-// 		var formattedDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
-// 		$(".education-entry:last").append(formattedDates);
-
-// 		var formattedUrl = HTMLonlineURL.replace("%data%", education.onlineCourses[course].url);
-// 		$(".education-entry:last").append(formattedUrl);
-// 	}
-// }
-
-// displayCourses();
-
-
-
 
 $(document).click(function(loc) {
 	var locx = loc.pageX;
