@@ -7,7 +7,7 @@ Online resume built using HTML, CSS, JavaScript and JQuery.
 1. Built four javaScript objects, each one representing a different resume section. The objects created follow the schema below. 
 
 2. 'Bio' contains  
-    name : string
+    - name : string
     role : string
     contacts : an object with
     mobile: string
