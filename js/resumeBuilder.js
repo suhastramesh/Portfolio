@@ -1,15 +1,7 @@
-
-
-
-
 var formattedName = HTMLheaderName.replace("%data%", "Suhas Tirumali Ramesh");
 var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
-
-
-
-
 
 var bio = {
 	"name": "Suhas",
@@ -30,8 +22,6 @@ var bio = {
 	],
 	"bioPic": "images/profile.jpg"
 }; 
-
-
 
 var education = {
 	"schools": [
@@ -202,9 +192,6 @@ var projects = {
 		
 	]
 }
-
-
-
 
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 	$("#topContacts").append(formattedMobile);
